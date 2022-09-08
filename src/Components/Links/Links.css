@@ -1,0 +1,23 @@
+.links-container {
+    max-width: 348px;
+    height: 348px;
+    background-color: var(--color-darkGray);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    color: var(--color-lightGray);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 34px 40px;
+}
+
+.link{
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   font-size: 13px;
+}
+
+.link-img {
+    margin-right: 1.25rem;
+}
