@@ -1,0 +1,20 @@
+.t-container{
+    width: 66rem;
+    height: 5.37rem;
+    background-color: var(--color-darkGray);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 20px;
+    color: var(--color-lightGray);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+    padding-left: 1.87rem;
+    margin-bottom: 1.87rem;
+}
+
+.t-title {
+    font-size: 20px;
+    line-height: 25.14px;
+    font-weight: 700;
+}

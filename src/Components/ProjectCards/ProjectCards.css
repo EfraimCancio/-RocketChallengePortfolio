@@ -1,0 +1,45 @@
+.cards-container {
+    width: 68rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.87rem;
+    margin-bottom: 1.87rem;
+}
+
+.card {
+    width: 50%;
+    height: 8rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: var(--color-darkGray);
+    color: var(--color-lightGray);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.card-header {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.card-body {
+
+} 
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.stars {
+    display: flex;
+    gap: 0.5rem;
+}
