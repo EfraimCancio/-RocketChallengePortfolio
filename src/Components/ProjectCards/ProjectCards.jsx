@@ -4,7 +4,8 @@ import './ProjectCards.css';
 //images
 import Folder from '../../images/folder.png';
 import Star from '../../images/star.png';
-import Git from '../../images/git-branch.png'
+import Git from '../../images/git-branch.png';
+
 const ProjectCards = () => {
   return (
     <div className="cards-container">
