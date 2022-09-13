@@ -25,9 +25,9 @@ function App() {
           <Education/>
         </main>
         <aside className="aside">
-          <Title/>
+          <Title title="Projects"/>
           <ProjectCards/>
-          <Title/>
+          <Title title="Posts"/>
           <PostCards/>
         </aside>
       </div>
